@@ -5,7 +5,7 @@ Feature: PrestaShop
         @test Register
         Scenario: To see options to register
             Given I as a user wanna access the site
-              And I wanna to fill in the fields "test1234@me.com"
+              And I wanna to fill in the fields "test12345@me.com"
              When I click the button
              Then I must to check the radio button
              Then I must to fill in the fields "Luiz" "Araujo" "Teste123"
